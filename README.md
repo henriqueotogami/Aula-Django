@@ -81,6 +81,22 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-### *Vídeo: 18 minutos hello word
+### Após ativar a Virtual Environment, iremos criar um "core" para a aplicação
+
+```
+(aula_django) C:\Users\henrique\Aula-Django> django-admin startapp core
+```
+
+### Adicionar "core" ao arquivo settings.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto``` em "Installed_Apps"
+
+### Criar uma nova rota no arquivo urls.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto``` em urlpatterns e importar ```from core import views```
+
+### Criar uma nova função "hello" e importar "HttpResponse" no arquivo views.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto\core```
+
+```
+def hello(request):
+    return HttpResponse('Hello world')
+```
+
 -----------------------------------------------------------------------------------------
 ## Henrique Matheus Alves Pereira
