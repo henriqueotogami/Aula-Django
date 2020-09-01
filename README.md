@@ -80,7 +80,7 @@ Django version 3.1, using settings 'primeiro_projeto.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
-
+ 
 ### Após ativar a Virtual Environment, iremos criar um "core" para a aplicação
 
 ```
