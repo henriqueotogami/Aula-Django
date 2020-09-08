@@ -1,28 +1,45 @@
 # Aula Framework Django
+
 ## Bootcamp Desenvolvedor Python Full Stack
-### Digital Innovation One 
+
+### Digital Innovation One
+
 [(clique aqui para ver o meu perfil na plataforma)](https://web.digitalinnovation.one/users/henrique_map)
+
 ### [Rafael Galleani](https://www.github.com/rafegal)
+
 ---------------------------------------------
+
 ### IDE: Visual Studio Code
+
 #### Tema: Monokai Pro
+
 #### Extensões: Code Spell Checker, GitLens, Grammarly, Markdown All in One, Python
+
 ---------------------------------------------
+
 ## Criação da Virtual Environment (Venv)
+
 ### Motivo: Isolamento das instalações de dependências neste projeto
-### Etapas:
+
+### Etapas
+
 Endereço da pasta do projeto
 ```
 C:\Users\henrique\Aula-Django>
 ```
-- [x] Criação de virtual environment na pasta do projeto com o seguinte comando no terminal: 
+
+- [x] Criação de virtual environment na pasta do projeto com o seguinte comando no terminal:
 ```
 py -m venv aula_django
 ```
+
 ### ou
+
 ```
 python -m venv aula_django
 ```
+
 - [x] Ativação da virtual environment:
 ```
 cd .\aula_django\
