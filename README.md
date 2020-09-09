@@ -8,7 +8,10 @@
 
 ### [Rafael Galleani](https://www.github.com/rafegal)
 
-Descrição: A aula foi dividida em duas partes, sendo a primeira apenas de configurações iniciais do servidor local do Django, e uma mensagem de "hello world" no navegador. 
+Descrição: 
+
+A aula foi dividida em duas partes, sendo a primeira apenas de configurações iniciais do servidor local do Django, e uma mensagem de "hello world" no navegador. 
+
 A segunda etapa consiste no desenvolvimento de uma Agenda de Eventos, com os seguintes recursos:
 
 - [x] Tela de administrador para gerenciar usuários e seus eventos;
@@ -33,7 +36,7 @@ A segunda etapa consiste no desenvolvimento de uma Agenda de Eventos, com os seg
 
 ------------------------------------------------------------------------------------------------------------
 
-## Etapas de configuracao 
+## Etapas de configuração
 [(clique aqui para ver o detalhamento)](https://github.com/HenriqueMAP/Aula-Django/blob/master/Configuration-steps.md)
 
 ### Virtual Environment (Venv)
