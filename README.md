@@ -8,15 +8,15 @@
 
 ### [Rafael Galleani](https://www.github.com/rafegal)
 
----------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 ### IDE: Visual Studio Code
 
 #### Tema: Monokai Pro
 
-#### Extensões: Code Spell Checker, GitLens, Grammarly, Markdown All in One, Python
+#### Extensões: Code Spell Checker, Error Lens, GitLens, Grammarly, Markdown All in One, Python
 
----------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 ## Criação da Virtual Environment (Venv)
 
@@ -24,56 +24,49 @@
 
 ### Etapas
 
-Endereço da pasta do projeto
-```
-C:\Users\henrique\Aula-Django>
-```
+Endereço da pasta do projeto ``` C:\Users\henrique\Aula-Django> ```
 
 - [x] Criação de virtual environment na pasta do projeto com o seguinte comando no terminal:
-```
-py -m venv aula_django
-```
 
-### ou
-
-```
-python -m venv aula_django
-```
+``` py -m venv aula_django ``` ou ``` python -m venv aula_django ```
 
 - [x] Ativação da virtual environment:
-```
-cd .\aula_django\
-```
-### e depois
-```
-.\Scripts\activate
-```
-### Note que aparece no canto esquerdo do terminal o nome da virtual environment criada (aula_django)
-```
-(aula_django) C:\Users\henrique\Aula-Django\aula_django>
-```
+
+``` cd .\aula_django\ ``` e depois ``` .\Scripts\activate ```
+
+#### Note que aparece no canto esquerdo do terminal o nome da virtual environment criada (aula_django)
+
+``` (aula_django) C:\Users\henrique\Aula-Django\aula_django> ```
+
+-------------------------------------------------------------------------------------------------------------------
 ## Django
+
 - [x] Instalação
-```
-(aula_django) C:\Users\henrique\Aula-Django\aula_django> pip install django
-```
+
+``` (aula_django) C:\Users\henrique\Aula-Django\aula_django> pip install django ```
+
 - [x] Inicialização
-```
-(aula_django) C:\Users\henrique\Aula-Django> django-admin startproject primeiro_projeto
-```
+
+``` (aula_django) C:\Users\henrique\Aula-Django> django-admin startproject primeiro_projeto ```
+
+-------------------------------------------------------------------------------------------------------------------
 ## Python
+
 - [x] Selecionar a versão do interpretador Python da Virtual Environment
 - [x] Pressionar o atalho do VSCode CTRL + SHIFT + P e digitar "Selecionar interpretador"
-### Deve aparecer a mensagem abaixo na Barra de Status do VSCode
-```
-Python 3.8.1 64-bit ('aula_django': venv)
-```
-- [x] Abrir o menu Explorador (CTRL + SHIFT + E), navegar na pasta "primeiro_projeto" e abrir o arquivo "manage.py"
-- [x] Abrir o menu superior Executar, clicar em "adicionar configuração" e selecionar "Django" na janela "Select a debug configuration". Confirme o endereço "${workspaceFolder}\manage.py".
-- [x] Automaticamente, abrirá um arquivo "launch.json" que o VSCode criou. Note que o argumento "runserver" está presente em "args".
+
+#### Deve aparecer a mensagem abaixo na Barra de Status do VSCode
+
+``` Python 3.8.1 64-bit ('aula_django': venv) ```
+
+- [x] Abrir o menu Explorador (CTRL + SHIFT + E), navegar na pasta "primeiro_projeto" e abrir o arquivo "manage.py";
+
+- [x] Abrir o menu superior Executar, clicar em "adicionar configuração" e selecionar "Django" na janela "Select a debug configuration". Confirme o endereço "${workspaceFolder}\manage.py";
+
+- [x] Automaticamente, abrirá um arquivo "launch.json" que o VSCode criou. Note que o argumento "runserver" está presente em "args";
 -------------------------------------------------------------------------------------------------
+
 ## Depois de configurado, siga a etapa abaixo no terminal
-### obs: ainda não consegui configurar os arquivos de debug JSON para fazer isso automaticamente
 
 ```
 C:\Users\henrique\Aula-Django> cd.\aula_django
@@ -97,23 +90,25 @@ Django version 3.1, using settings 'primeiro_projeto.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
- 
-### Após ativar a Virtual Environment, iremos criar um "core" para a aplicação
+------------------------------------------------------------------------------------------------------------------- 
+### Após ativar a Virtual Environment, 
 
-```
-(aula_django) C:\Users\henrique\Aula-Django> django-admin startapp core
-```
+- [x] Criar um "core" para a aplicação:
 
-### Adicionar "core" ao arquivo settings.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto``` em "Installed_Apps"
+``` (aula_django) C:\Users\henrique\Aula-Django> django-admin startapp core ```
 
-### Criar uma nova rota no arquivo urls.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto``` em urlpatterns e importar ```from core import views```
+- [x] Adicionar "core" ao arquivo settings.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto``` em "Installed_Apps"
 
-### Criar uma nova função "hello" e importar "HttpResponse" no arquivo views.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto\core```
+- [x] Criar uma nova rota no arquivo urls.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto``` em "urlpatterns"
 
-```
+- [x] Importar ```from core import views```
+
+- [x] Criar uma nova função "hello" e importar "HttpResponse" no arquivo views.py que está na pasta ```C:\Users\Henrique\Aula-Django\primeiro_projeto\core```
+
+``` 
 def hello(request):
-    return HttpResponse('Hello world')
+ return HttpResponse('Hello world')
 ```
-
 -----------------------------------------------------------------------------------------
-## Henrique Matheus Alves Pereira
+
+### Desenvolvido por Henrique Matheus Alves Pereira
